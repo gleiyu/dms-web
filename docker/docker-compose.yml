@@ -45,7 +45,7 @@ services:
     networks:
       - dms
   dms_backend:
-    image: registry.cn-hangzhou.aliyuncs.com/basedt/dms-backend:v1.0.0
+    image: registry.cn-hangzhou.aliyuncs.com/basedt/dms-backend:v1.0.0-arm64
     container_name: dms-backend
     depends_on:
       redis:
@@ -60,7 +60,7 @@ services:
     networks:
       - dms
   dms-frontend:
-    image: registry.cn-hangzhou.aliyuncs.com/basedt/dms-frontend:v1.0.0
+    image: registry.cn-hangzhou.aliyuncs.com/basedt/dms-frontend:v1.0.0-arm64
     container_name: dms-frontend
     depends_on:
       dms_backend:
