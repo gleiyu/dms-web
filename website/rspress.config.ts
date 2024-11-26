@@ -30,7 +30,7 @@ export default defineConfig({
             {
                 icon: 'github',
                 mode: 'link',
-                content: 'git@github.com:basedt/dms-web.git',
+                content: 'https://github.com/basedt/dms-web',
             },
         ],
         locales: [
