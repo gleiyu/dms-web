@@ -1,0 +1,19 @@
+[
+  {
+    "type": "file",
+    "name": "index",
+    "label": "nav.docs.introduction"
+  },
+  {
+    "type": "dir",
+    "name": "start",
+    "label": "nav.docs.start",
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "guide",
+    "label": "nav.docs.guide",
+    "collapsed": true
+  }
+]
